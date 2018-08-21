@@ -1,0 +1,30 @@
+.page-header {
+  padding-bottom: 10px;
+  padding-top:20px;
+  text-align: center;
+
+  border-bottom: 2px solid #eee;
+}
+.row h3{
+
+  text-align: center;
+}
+.row p{
+
+  text-align: center;
+}
+.img-responsive{
+  border-radius: 50%;
+  height:auto;
+  width: auto;
+  max-width: 85%;
+  max-height: 60%;
+  margin: auto;
+}
+.img-portfolio img{
+	padding-left:2px;
+	padding-right:2px;
+}
+.warningicon{
+
+}

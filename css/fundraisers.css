@@ -1,0 +1,27 @@
+.page-header{
+	text-align:center;
+}
+.centered{
+	text-align:center;
+}
+td, th{
+	padding-left:30px;
+	padding-right:30px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+table{
+	font-size:32px;
+	font-size:4vmin;
+}
+.graybg{
+	background-color:lightgray;
+}
+.imgbg{
+	background-image: url("images/jason.jpg");
+}
+
+.fundraiserimg {
+	padding-top: 20px;
+	padding-bottom: 25px;
+}

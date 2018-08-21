@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Yogurt World</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/yogurtworld.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top shadow" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <!-- <div class="pull-left navbar-menu-text">
+                    MENU
+                  </div> -->
+                  <div class="pull-right">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </div>
+              </button>
+                <a class="navbar-brand" href="index.html">Yogurt World</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="flavors.html">FLAVORS</a></li>
+                    <li><a href="fundraisers.html">FUNDRAISERS</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="contact.html"><b>CONTACT US</b></a></li>
+                    <!-- <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="full-width.html">Full Width Page</a></li>
+                            <li><a href="sidebar.html">Sidebar Page</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                        </ul>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- End Navigation -->
+
+    <!-- Page Content -->
+    <div class="container flavors">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header"><center>Contact Us</center></h1>
+                 <!-- <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li class="active">Contact</li>
+                </ol>-->
+            </div>
+        </div>
+
+
+        <!-- Content Row -->
+        <div class="row">
+
+            <!-- Contact Details Column -->
+            <div class="col-lg-5 col-md-6 ">
+                <h3 align="center">Contact Details</h3>
+                <p align="center">
+		          <b> Located at the Student Services Center <br> Across from the Loft! <br> </b>
+                    9500 Gilman Drive<br>La Jolla, CA 92093<br> </p>
+                <br>
+
+                <table align="center" style="margin: 0px auto;" >
+
+                    <tr valign = "top">
+                        <th rowspan="1" width="65px"><i class="fa fa-phone"></i>
+                            <span style="font-weight:normal;">Phone:</span></th>
+                            <!--<abbr title="Phone"> <span style="font-weight:normal;">Phone:</span> </abbr> </th> -->
+                            <td> (858) 452-8889 </td> </tr>
+
+                    <tr valign = "top">
+                        <th rowspan="1"><i class="fa fa-envelope-o"></i>
+                            <span style="font-weight:normal;">Mail:</span></th>
+                            <td> <a href="mailto:name@example.com"><font color="blue">yogurtworlducsd@gmail.com</font></a></p> </td> </tr>
+
+
+                    <tr valign = "top">
+                        <th rowspan="2"><i class="fa fa-clock-o"></i>
+                            <span style="font-weight:normal;">Hours:</span> </th>
+
+                            <td> Monday - Friday: 10:30 AM to 10:00 PM </td> </tr>
+                     <tr>
+                            <td> Saturday - Sunday: 11:00 AM to 5:00 PM </td></tr>
+
+
+
+                    <tr valign = "top">
+                        <th rowspan="5"><i class="fa fa-car"></i>
+                             <span style="font-weight:normal;">Park:</span> </th>
+
+                            <td> Free Weekend Parking!</td> </tr>
+                     <tr>
+                            <td> Park at Gilman Parking Structure! </td></tr>
+                     <tr>
+                            <td> <a href="https://goo.gl/maps/4NLmkvnPWHR2"><font color="blue">3100 Gilman Dr, La Jolla, CA</font></a> </td></tr>
+                     <tr>
+                            <td> For info check out:</td></tr>
+                     <tr>
+                            <td> <a href="https://transportation.ucsd.edu/parking/visitor/index.html#Pay-Stations"><font color="blue">UCSD Transportation Services.</font></a> </td></tr>
+
+                </table> <br></div>
+        <div class="col-lg-7 col-md-6">
+
+            <h3>Send us a Message</h3>
+            <form name="sentMessage" id="contactForm" novalidate>
+                <div class="control-group form-group">
+                    <div class="controls">
+                            <label>Name:</label>
+                            <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+                            <p class="help-block"></p>
+                        </div>
+                    </div>
+                     <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Email Address:</label>
+                            <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Message:</label>
+                            <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+                        </div>
+                    </div>
+                    <div id="success"></div>
+                    <!-- For success/fail messages -->
+                    <button type="submit" class="btn btn-lg btn-default btn-block">Send Message</button>
+                </form><br>
+
+            </div>
+        </div>
+
+        <!-- Contact Form -->
+        <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+        <div class="row">
+
+
+                <div class="maps">
+                    <iframe style="pointer-events: none;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.717108782957!2d-117.2381861494179!3d32.87920348084778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc06d869a3c4bd%3A0xc515057f38229ada!2sYogurt+World+UCSD!5e0!3m2!1sen!2sus!4v1488672816688" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen scrolling="no" display="inline"></iframe></div>
+
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+                <script>
+                    $('.maps').click(function () {
+                          $('.maps iframe').css("pointer-events", "auto");
+                    });
+
+                    $( ".maps" ).mouseleave(function() {
+                         $('.maps iframe').css("pointer-events", "none");
+                     });
+                </script>
+        </div>
+
+        <!-- /.row -->
+
+        <br>
+	</div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="container">
+
+      <div class="col-md-4">
+          <h2 class="footertitle"><a href="index.html">Yogurt World</a></h2>
+          <p class="footertext"><b>Located at the Student Services Center Across from the Loft</b><br>
+            9500 Gilman Drive<br>
+            La Jolla, CA 92093<br>
+            (858) 452-8889
+          </p>
+        </div>
+        <div class="col-md-5">
+            <h2 class="footertitle">Store Hours</h2>
+          <table>
+            <tr>
+              <td>Monday-Friday</td>
+              <td style="text-align:right;padding-right:10px;">10:30AM - 10:00PM</td>
+            </tr>
+            <tr>
+              <td>Saturday</td>
+              <td style="text-align:right;padding-right:10px;">11:00AM - 5:00PM</td>
+            </tr>
+            <tr>
+              <td>Sunday</td>
+              <td style="text-align:right;padding-right:10px;">11:00AM - 5:00PM</td>
+            </tr>
+          </table>
+        </div>
+        <div class="col-md-3">
+            <h2 class="footertitle">Connect With Us</h2>
+            <a href="https://www.facebook.com/pages/Yogurt-World-Ucsd/135064886536194" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.yelp.com/biz/yogurt-world-la-jolla-2" target="_blank"><i class="fa fa-yelp"></i></a>
+            <a href="mailto:yogurtworlducsd@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+          </div>
+          <br/>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="copyright">Copyright &copy; Team Froyoyo 2017</p>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- /footer -->
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+</body>
+
+</html>
